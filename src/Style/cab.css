@@ -147,7 +147,15 @@
     }
 }
 
-
+* {
+	outline: none;
+}
+body img{
+    outline: none;
+}
+img{
+    outline: none;
+}
 /*
 *
 *

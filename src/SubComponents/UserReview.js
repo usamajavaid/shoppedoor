@@ -32,7 +32,7 @@ class UserReview extends Component {
                                         style={{fontFamily:"normal",color:"#BB6140",marginTop:"40px"}}>
                                              Personal Name , Designation
                                     </h4>
-                                    <div class="stars"style={{color:" #db5d15"}}  >
+                                    <div className="stars"style={{color:" #db5d15"}}  >
                                         <i class="fa fa-star"></i>&nbsp;&nbsp;
                                         <i class="fa fa-star"></i>&nbsp;&nbsp;
                                         <i class="fa fa-star"></i>&nbsp;&nbsp;

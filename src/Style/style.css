@@ -7,7 +7,15 @@
 /*------------------------------------------------------------------
                         Food Header
 -------------------------------------------------------------------*/
-
+* {
+	outline: none;
+}
+body{
+    outline: none;
+}
+img{
+    outline: none;
+}
 .food-header .navbar{
 	position: fixed;
 	width: 100%;
@@ -152,17 +160,18 @@ body {
     line-height: 1.80857;
 }
 
-#login-btn{
+.login__btn{
     color: #fff;
-    background-color: #d65106;
+    background-color: #d65106 !important;
     margin-left: 55px;
     height: auto;
     max-width: 250px;
     
 
 }
-#login-btn:hover{
-    background-color: #1f1f1f;
+.login__btn:hover{
+    background-color: #1f1f1f !important;
+    color: white !important;
 }
 a {
     color: #1f1f1f;
@@ -336,7 +345,8 @@ button:focus{
     line-height: 1.18519;
     font-weight: 300;
     text-align: center;
-    margin-top: -100px;
+    margin: auto !important;
+    /* margin-top: -100px; */
 }
 @media only screen and (max-width: 800px) {
     .top-navbar .navbar{
@@ -344,18 +354,22 @@ button:focus{
     }
  }
  @media only screen and (max-width: 800px) {
-    #login-btn{
+    .login__btn{
         width:150px;
-        margin: auto;
+        margin: auto !important;
+    }
+}
+    @media only screen and (max-width: 600px) {
+        #Services-Heading{
+            margin-top: -600px !important;
+        }
+     } 
+ @media only screen and (max-width: 600px) {
+    .login__btn{
+        width:150px;
+        margin: auto !important;
     }
  }
- @media only screen and (max-width: 800px) {
-    #Services-Heading{
-        margin: auto;
-        margin-top: -600px;
-    }
- }
- 
 /*------------------------------------------------------------------
     Slider
 -------------------------------------------------------------------*/

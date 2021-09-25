@@ -1,3 +1,6 @@
+img{
+  outline: none;
+}
 .product__settings{
     position: relative;
     width: 300px;

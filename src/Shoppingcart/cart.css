@@ -383,3 +383,9 @@
     margin-bottom: 3rem;
   }
 }
+@media only screen and (max-width: 800px) {
+  .cart-icon{
+    margin-right: 70px;
+    margin-top: -30px;
+  }
+}

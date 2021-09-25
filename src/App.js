@@ -10,7 +10,7 @@ import {Provider} from 'react-redux';
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <React.Fragment style={{outline:"none"}}>
         <Provider store={store}>
           <Routing/>
         </Provider>

@@ -4,7 +4,15 @@
 
 
 
-
+* {
+	outline: none;
+}
+body{
+    outline: none;
+}
+img{
+  outline: none;
+}
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900");
 body {

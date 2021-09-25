@@ -4,7 +4,7 @@ class Ourteam extends Component {
     render() {
         return (
     <React.Fragment>
-        <div class="py-5 team3 bg-light">
+        <div class="py-5 team3 bg-light" style={{outline:"none"}}>
             <div class="container">
                 <div class="row justify-content-center mb-4">
                     <div class="col-md-7 text-center">
@@ -20,7 +20,7 @@ class Ourteam extends Component {
                     </div>
                 </div>
                 <div class="profile__row">
-                        <img src={Usama} className="my__image__setting" style={{marginLeft:"-50px"}}/>
+                        <img src={Usama} className="my__image__setting" style={{marginLeft:"-50px",outline:"none"}}/>
                         <div class="pt-2"style={{marginLeft:"70px"}}>
                             <h5 class="mt-4 font-weight-medium mb-0">Usama Javed</h5>
                             <h6 class="subtitle">MERN Stack Developer</h6>

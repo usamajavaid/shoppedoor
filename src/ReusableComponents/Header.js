@@ -32,8 +32,8 @@ class Header extends Component {
                                     <li class="nav-item "><Link class="nav-link"to="/Components/EClub">Membership</Link></li>
                                     <li class="nav-item "><Link class="nav-link"to="/Components/AboutUs">About Us</Link></li>
                                     <li class="nav-item "><Link class="nav-link"to="/Components/Help">Contact Us</Link></li>
-                                    <Link to="/ReusableComponents/Login">
-                                    <button type="button " class="btn"  id="login-btn">Login</button>
+                                    <Link to="/ReusableComponents/Login" style={{margin:"auto"}}>
+                                    <button type="button " class="btn login__btn"  style={{margin:"auto"}}>Login</button>
                                     </Link>
                                     <Link to="/SubComponents/cartView">
                                     <div className="cart-icon">

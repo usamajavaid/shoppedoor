@@ -72,7 +72,6 @@ h1:last-of-type {
 .eclub__background .btn:hover{
     background-color: #d65106;
 }
-
 @media (max-width: 450px) {
     .box {
         height: 200px;
@@ -131,11 +130,18 @@ h2 {
     }
     
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .eclub__background img {
         max-width: 50px !important;
         max-height: 50px !important;
         margin-bottom: 50px !important;
         margin-top: -50px;
+
+    }
+    .eclub__background .btn{
+        max-width: 40px !important;
+        /* max-height: 30px; */
+        margin-top: -40px;
+
     }
  }
