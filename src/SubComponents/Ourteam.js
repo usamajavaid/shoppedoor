@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Usama from '../images/usamajaved.png';
-import Hamza from '../images/hamza.png';
-// import DrHamid from '../images/drhamid.jpg';
 class Ourteam extends Component {
     render() {
         return (
