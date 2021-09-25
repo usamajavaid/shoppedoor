@@ -1,0 +1,61 @@
+.checkmark__background{
+    margin-top: 100px !important;
+    position: relative;
+    width: 500px;
+    height: 250px;
+    border: solid 1px rgb(233, 233, 233);
+    border-radius: 2px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0px 4px 8px 0px rgba(48, 47, 47, 0.2);
+    background-color: #FFFFFF;
+    justify-content: center;
+    margin: auto;
+}
+.tickbackround__circle{
+    background: #4CAF50;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    justify-content: center !important;
+    text-align: center;
+    margin: auto;
+    margin-top: -40px;
+}
+.checkmark {
+    display:inline-block;
+    width: 22px;
+    height:22px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.checkmark_stem {
+    position: absolute;
+    width:8px;
+    height:40px;
+    background-color:#FFFFFF;
+    left:30px;
+    top:5px;
+}
+
+.checkmark_kick {
+    position: absolute;
+    width:20px;
+    height:8px;
+    background-color:#FFFFFF;
+    left:18px;
+    top:38px;
+}
+.checkmark__background h1{
+    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+.checkmark__background p{
+    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+    color: rgb(46, 46, 46);
+    font-size: 0.99rem;
+}

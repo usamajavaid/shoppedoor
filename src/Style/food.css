@@ -1,0 +1,453 @@
+#food-delivery-btn{
+    margin-top: 10px;
+    border-radius: 0px;
+    border: 1px solid #d65106;
+    margin-left: 50px;
+    padding: 17px 20px;
+    color: whitesmoke;
+    background-color: #d65106;
+    box-shadow: 0 0 0 0 #d65106;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    line-height: 1.14286;
+    cursor: pointer;
+    transition: all 1900ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.delivery-fill{
+    outline: 1px solid #d65106; 
+}
+#food-delivery-btn:hover{
+  background-color: transparent;
+  outline-color: rgba(177, 77, 77, 0);
+  outline-offset: 20px ;
+  color: #d65106;
+}
+#food-main-pageheading{
+    margin-top: 300px;
+    font-family:monospace;
+    font-size: 2.5rem;
+    text-align:center;
+    color:rgb(92, 91, 91)
+}
+#food-main-image{
+    max-width: 600px;
+    max-height: 400px;
+    margin-top: 120px;
+    outline: none;
+}
+.wrapper {
+    padding: 50px 50px;
+    max-width: 1200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.right {float: right !important;}
+/* Image zoom on hover + Overlay colour */
+.parent {
+    width: 45%;
+    margin: 20px;
+    height: 300px;
+    border: 1px solid rgb(178, 178, 179);
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+/* Several different images */
+.bg-one {background-image: url('../images/badshahimosque.jpg');}
+.bg-two {background-image: url('../images/islamabad2.jpg');}
+.bg-three {background-image: url('../images/Karachi.jpg');}
+.bg-four {background-image: url('../images/faislabad.jpg');}
+.bg-five {background-image: url('../images/Rawalpindi.jpg');}
+.bg-six {background-image: url('../images/bhawalpur.jpg');}
+.bg-seven {background-image: url('../images/multan2.jpg');}
+.bg-eight {background-image: url('../images/shakhopora3.jpg');}
+
+
+.wrapper a{
+    display: none;
+    font-size: 35px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#colunm-style{
+    margin-left: 200px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-btn{
+    width: 45%;
+    max-width: 160px;
+    color: #fff;
+    margin: 20px 10px;
+    text-align: left;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.blu{
+    background-color: #101010;
+    transition: background-color 0.25s linear;
+}
+.app-btn:hover{
+    background-color: #4c9c36;
+    color: white;
+}
+
+.app-btn i{
+    width: 20%;
+    text-align: center;
+    font-size: 28px;
+    margin-right: 7px;
+}
+.big-txt {
+    font-size: 17px;
+    text-transform: capitalize;
+   }
+#download-food-app{
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    color: #fff;
+    background: #d65106;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+   }
+   
+   #download-img{
+       max-width: 600px;
+       max-height: 600px;
+       margin-top: -100px;
+   }
+
+/* Media Queries */
+
+   @media screen and (max-width: 960px) {
+    #download-food-app {
+        max-width:fit-content;
+        max-height: fit-content;
+        
+    }
+}
+@media screen and (max-width: 960px) {
+    #download-img {
+        max-width: 300px;
+       max-height: 300px;
+       margin-top: 50px;
+        
+    }
+}
+@media screen and (max-width: 960px) {
+    .parent {width: 100%; margin: 20px 0px}
+    .wrapper {padding: 20px 20px;}
+}
+
+@media screen and (max-width: 960px) {
+    #colunm-style {margin-left: 0;}
+}
+/*------------------------------------------------------------------
+                        Food Gallery
+-------------------------------------------------------------------*/
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+  #Wraper9{
+    
+    width: 1000px;
+    outline:  none;
+    
+  }
+  @media only screen and (max-width: 414px) {
+    #Wraper9{
+        width: 250px;
+    }
+  }
+  .slick-prev:before{
+    background: #d65106;
+    color: #0e191d;
+    margin-left: -40px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    display: block;
+    border-radius: 5px;
+	line-height: 53px;
+    transition: all .3s ease-in-out;
+}
+.slick-next:before{
+    background: #d65106;
+    color: #0e191d;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    display: block;
+    border-radius: 5px;
+	line-height: 53px;
+    transition: all .3s ease-in-out;
+}
+  #Page2{
+    width: 100%;
+    outline:  none;
+    
+  }
+  .img-card{
+    margin-top: 50px;
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  @media only screen and (max-width: 414px) {
+    .img-card{
+        width: 250px;
+    }
+  }
+  #slider-img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+.nav-img-tab{
+    background-image: url('../images/fooddelivery.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    border-bottom: solid 2px blue;
+}
+#tabs-style{
+    color: #d65106;
+}
+#free-img-card{
+    max-width: 300px;
+    height: 180px !important;
+    cursor: pointer;
+}
+#marginfortop{
+    margin-top: 100px;
+}
+#marginforbootom{
+    margin-top: -100px;
+}
+.blook-heading{
+    width:auto;
+    position: absolute;
+    bottom: 100px;
+    background: rgb(215,15,100);
+    color: white;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.0rem;
+    line-height: 0.800;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.time-block{
+    width:auto;
+    position: absolute;
+    background: white;
+    color: black;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 1.0rem;
+    line-height: 0.800;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-left: 221px;
+    bottom: 130px;
+}
+#menu-detail-heading{
+    color: rgb(53, 52, 52);
+    margin-top: 10px;
+    font-size: 1.1rem;
+    line-height: 0.800;
+    font-weight: 50;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#menu-detail-paragraph{
+    color: rgb(122, 122, 122);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menu-rating-star{
+    color: rgb(242, 198, 77);
+    font-size: medium;
+    margin-left: 10px;
+}
+#rating-text{
+    color: rgb(122, 122, 122);
+}
+#food-gallery-center-content{
+    margin-top: 200px;
+}
+#delivry-content{
+    justify-content: left;
+    text-align: left;
+}
+#right-menu-card{
+    margin-left: -200px;
+}
+ #food-gallery-content{
+     position: absolute;
+     margin-top: 200px;
+     margin-left: 100px;
+ }
+#slider-row{
+    margin-top: 150px;
+}
+#free-delivery-content-row{
+    margin-left: -200px;
+}
+#food-shops-heading{
+    margin-top: 300px;
+    font-size: 1.9rem;
+    color: rgb(92, 87, 87);
+    text-align: center;
+}
+#food-shops-paragraph{
+    color: rgb(92, 87, 87);
+    font-size: medium;
+    text-align: center;
+}
+.permotion-cards{
+    margin-left: -10px;
+    margin-top: 80px;
+    background-color: transparent;
+    width: 260px;
+    height: 150px;
+}
+#promo-img{
+    max-height: 100%;
+    max-width: 100%;
+}
+#food-footer{
+    position: absolute;
+    margin-top: 2500px;
+}
+/* Media Queries */
+
+
+  /* @media only screen and (max-width: 800px) {
+    #Page2{
+        width: 300px !important;
+    }
+  } */
+  @media only screen and (max-width: 800px) {
+    #food-footer{
+        margin-top: 4500px;
+    }
+ }
+
+@media only screen and (max-width: 800px) {
+    #free-delivery-content-row{
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+ }
+ @media only screen and (max-width: 800px) {
+    #food-gallery-content{
+        margin-left: 0px;
+    }
+ }
+ @media only screen and (max-width: 414px) {
+    #slider-row{
+        margin-left: 35px;
+        width: 414px;
+    }
+ }
+ @media only screen and (max-width: 414px) {
+    #second-slider-row{
+        margin-left: 35px;
+        width: 414px;
+    }
+ }
+ @media only screen and (max-width: 800px) {
+    #right-menu-card{
+        margin-top: 200px;
+        margin-left: 0;
+    }
+ }
+ @media only screen and (max-width: 800px) {
+    #marginfortop{
+        margin-left: 60px;
+    }
+ }
